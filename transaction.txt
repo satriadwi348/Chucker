@@ -1,0 +1,64 @@
+URL: https://iproc5g.pengadaan.com/api_v1/cart/delete/2752
+Method: GET
+Protocol: http/1.1
+Status: Complete
+Response: 404 Not Found
+SSL: Yes
+
+Request time: Thu May 09 20:31:21 GMT+07:00 2024
+Response time: Thu May 09 20:31:22 GMT+07:00 2024
+Duration: 130 ms
+
+Request size: 0 B
+Response size: 1.0 kB
+Total size: 1.0 kB
+
+---------- Request ----------
+
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvaXByb2M1Zy5wZW5nYWRhYW4uY29tXC8iLCJhdWQiOiJodHRwczpcL1wvaXByb2M1Zy5wZW5nYWRhYW4uY29tXC8iLCJzdWIiOiJmaXJhIiwiaWF0IjoxNzE1MjYxMzIzfQ.h35_acdGThBmNYhmSjef8bN8eM8P4mWsFYphln1xrT8
+
+(body is empty)
+
+---------- Response ----------
+
+Date: Thu, 09 May 2024 13:31:22 GMT
+Server: Apache
+X-Powered-By: PHP/8.1.18
+Cache-Control: no-store, max-age=0, no-cache
+Vary: Authorization
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/json; charset=UTF-8
+
+{
+  "title": "CodeIgniter\\Exceptions\\PageNotFoundException",
+  "type": "CodeIgniter\\Exceptions\\PageNotFoundException",
+  "code": 404,
+  "message": "Controller or its method is not found: Core\\App\\Controllers\\Api_v1::cart",
+  "file": "/var/www/html/iproc5g-ci4/system/CodeIgniter.php",
+  "line": 967,
+  "trace": [
+    {
+      "file": "/var/www/html/iproc5g-ci4/system/CodeIgniter.php",
+      "line": 967,
+      "function": "forPageNotFound",
+      "class": "CodeIgniter\\Exceptions\\PageNotFoundException",
+      "type": "::"
+    },
+    {
+      "file": "/var/www/html/iproc5g-ci4/system/CodeIgniter.php",
+      "line": 362,
+      "function": "display404errors",
+      "class": "CodeIgniter\\CodeIgniter",
+      "type": "->"
+    },
+    {
+      "file": "/var/www/html/iproc5g-ci4/public/index.php",
+      "line": 79,
+      "function": "run",
+      "class": "CodeIgniter\\CodeIgniter",
+      "type": "->"
+    }
+  ]
+}
